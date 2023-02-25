@@ -1,0 +1,10 @@
+.container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: aliceblue;
+  padding: 8px;
+  border-radius: 24px;
+}

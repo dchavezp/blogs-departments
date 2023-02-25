@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.options {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: white;
+  width: 140px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.options div {
+  padding: 8px 24px 8px 12px;
+  font-size: small;
+  transition: all;
+  transition-duration: 300ms;
+}
+.options div:hover {
+  background: black;
+  color: aliceblue;
+  cursor: pointer;
+}
+.userInfo {
+  font-size: small;
+}

@@ -1,0 +1,11 @@
+.container {
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  max-width: 150px;
+  word-wrap: break-word;
+  border: 0;
+  font-size: small;
+}

@@ -1,0 +1,5 @@
+.container {
+  color: var(--primary);
+  cursor: pointer;
+  text-decoration: underline;
+}

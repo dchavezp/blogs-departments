@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: small;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: small;
+}
+.actions {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.actions button {
+  border: 1px;
+  border-radius: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: all;
+  transition-duration: 300ms;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 8px 16px 8px 16px;
+}
+.error {
+  color: rgb(221, 77, 77);
+  font-weight: 400;
+  font-size: small;
+}

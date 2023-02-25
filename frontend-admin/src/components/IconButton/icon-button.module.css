@@ -1,0 +1,27 @@
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 300ms;
+  background: var(--primary);
+  color: aliceblue;
+  border-radius: 4px;
+}
+
+.inactive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.inactive:hover {
+  background: #c7c7c7;
+}

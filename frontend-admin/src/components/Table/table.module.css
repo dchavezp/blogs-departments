@@ -1,0 +1,9 @@
+.container {
+  margin-bottom: 8px;
+}
+.container table {
+  border-radius: 12px;
+  width: 100%;
+  overflow: hidden;
+  border: none;
+}
